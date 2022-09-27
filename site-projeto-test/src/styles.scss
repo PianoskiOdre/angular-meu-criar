@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr';
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@import "~bootstrap/dist/css/bootstrap.css";
+
+* {
+    font-family: 'Jost', sans-serif;
+}
+.d-flex {
+    display: flex;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

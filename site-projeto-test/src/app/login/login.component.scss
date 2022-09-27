@@ -1,0 +1,52 @@
+.card {
+    border: none;
+    height: 650px;
+    width: 560px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(34, 11, 65);
+    background: linear-gradient(180deg, rgb(38, 54, 52) 0%, rgb(37, 0, 110) 100%);
+    border-radius: 10px;
+}
+
+.text-center {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form-group {
+    display: block;
+    margin-top: 20px;
+}
+
+.form-control {
+    width: 480px;
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+label {
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    width: 50%;
+    height: 50px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.data {
+    margin-top: 189px;
+    margin-left: 150px;
+}
+
+.data a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
