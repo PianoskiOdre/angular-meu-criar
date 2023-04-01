@@ -14,6 +14,8 @@ import { LoadingService } from '../loading/loading.service';
 })
 export class LoginComponent implements OnInit {
 
+  imageSrc = 'assets/img/LOGO-CDL.png'
+
   public loginForm !: FormGroup;
   loading: boolean = false;
   submitted!: boolean;
@@ -48,7 +50,7 @@ export class LoginComponent implements OnInit {
         this.loginForm.reset();
         this.router.navigate([`dashboard`])
       }else {
-        this._alert.warning('Usuário não foi encontrado!!');
+        this._alert.error('Usuário não foi encontrado!!');
       }
     }, error=> {
       this._alert.error('Algo deu errado!!')

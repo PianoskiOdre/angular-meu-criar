@@ -1,24 +1,23 @@
 <mat-toolbar>
     <div class="nav-left">
-        <!-- <img [src]="imageSrc"> -->
-        <a routerLink="/dashboard">Home</a>
-        <a routerLink="/login">login</a>
-        <a routerLink="/signup">Sign Up</a>
+        <img [src]="imageSrc" width="80px">
+        <a routerLink="/dashboard">HOME</a>
+        <a routerLink="/login" routerLinkActive="active">LOGIN</a>
+        <a routerLink="/signup" routerLinkActive="active">SIGN UP</a>
     </div>
-    <!-- <div class="nav-right">
+    <div class="nav-right">
         <div class="search-box">
-            <img [src]="imgSearch" [alt]="imageAlt">
+            <img [src]="imgSearch" [alt]="imageAlt" width="30px">
             <input type="text" placeholder="Search">
         </div>
         <div class="nav-user-icon li_main">
-            <img [src]="imgPerfil">
+            <img [src]="imgPerfil" width="50px">
             <div class="dd-right">
-                <a routerLink="">Conta</a>
-                <a routerLink="">Minha assinatura</a>
+                <a routerLink="">Minha conta</a>
                 <a routerLink="">Configações</a>
                 <a routerLink="">Suporte</a>
-                <a routerLink="">Sair</a>
+                <a routerLink="">Sair do CDL</a>
             </div>
         </div>
-    </div> -->
+    </div>
 </mat-toolbar>

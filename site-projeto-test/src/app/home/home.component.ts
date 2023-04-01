@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   // Propridades
-  imageSrc = '/assets/img/Moz-Originais.png'
+  imageSrc = 'assets/img/LOGO-CDL.png'
   imageAlt = 'Moz'
 
   imgSearch = '/assets/img/search.png'

@@ -14,6 +14,8 @@ import { AuthInterceptor, HTTPListener, HTTPStatus } from './loader/interceptor.
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { RouterModule } from '@angular/router';
+import { appRoutes } from './routes';
 const RxJS_Service = [HTTPListener, HTTPStatus];
 
 @NgModule({
@@ -28,6 +30,7 @@ const RxJS_Service = [HTTPListener, HTTPStatus];
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    RouterModule.forRoot(appRoutes),
     ReactiveFormsModule,
     NgxSpinnerModule,
     BrowserAnimationsModule, // required animations module
